@@ -88,10 +88,10 @@ Now I had a command panel, I used ls to see the files<br>
     <img src="images/command_panel_page.jpg" alt="command panel page image">
 </div>
 <br>
-
-After seeing the files I tried to use `cat` to see the "Sup3rS3cretPickl3Ingred.txt" and the "clue.txt" but i couldn't, so i search other ways to see and txt file and tried: `grep . <file> ` , it basically search everything in the file and print it .<br>
+<br>
+After seeing the files I tried to use `cat` to see the "Sup3rS3cretPickl3Ingred.txt" and the "clue.txt" but i couldn't, so i search other ways to see and txt file and tried: `grep . <file> ` , it basically search everything in the file and print it .<br><br>
 Well, I did it in the "Sup3rS3cretPickl3Ingred.txt" and it gave me the first flag `mr. meeseek hair`.<br>
-Also did it in the "clue.txt" and it showed me `Look around the file system for the other ingredient.`.<br>
+Also did it in the "clue.txt" and it showed me `Look around the file system for the other ingredient.`.<br><br>
 But I really didn't want to use the command panel page so I did an reverse shell with Python<br>
 
 ...need to continue
