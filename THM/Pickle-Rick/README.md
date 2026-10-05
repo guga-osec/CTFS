@@ -22,4 +22,4 @@ Step by Step of what I did:
     nmap:
         - Used nmap and saw the open ports of the
         
-<img src='nmap_image' alt='Imagem-nmap'>
+![Nmap image](images/nmap_image.jpg)
