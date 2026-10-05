@@ -22,4 +22,6 @@ Step by Step of what I did:
     nmap:
         - Used nmap and saw the open ports of the
         
-![Nmap image](images/nmap_image.jpg)
+<div align="center">
+    <img src="images/nmap_image.jpg" alt="Nmap image">
+</div>
