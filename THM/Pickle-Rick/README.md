@@ -61,7 +61,7 @@ and wrote it down in the notepad too.<br>
 </pre>
 <br>
 Now I use dirb so I can see the paths the page has.<br>
-In this case I Don't specify the wordlist because the common one is sufficient.<br>
+In this case I Don't specify the wordlist because the common one is sufficient.<br><br>
 <div align="center">
     <img src="images/dirb_image.jpg" alt="Dirb image">
 </div>
@@ -77,21 +77,26 @@ It ended up giving me some interesting paths, and as you know, also noted it in 
         + http://10.130.176.224/login.php - interesting
 </pre>
 
-I started opening and seeing every URL, the assets wasn't interesting, the robots.txt had something writed: `Wubbalubbadubdub`, also noted it, index.html was the main page, server-status was forbidden and the most interesting.. the login.php, an as the path say login page, I tried to use a sqli but it didn't work.<br>
+I started opening and seeing every URL, the assets wasn't interesting, the robots.txt had something writed: `Wubbalubbadubdub`, also noted it, index.html was the main page, server-status was forbidden and the most interesting.. the login.php, an as the path say login page.
+<br> I tried to use a sqli but it didn't work. <br>
 <div align="center">
     <img src="images/login_page.jpg" alt="login page image">
 </div>
 <br>
-I remembered of the notes, Username: R1ckRul3s and tried the Wubbalubbadubdub as the password, and well it worked.<br>
-Now I had a command panel, I used ls to see the files<br>
+I remembered of the notes, Username: <code>R1ckRul3s</code> and tried the <code>Wubbalubbadubdub</code> as the password, and well it worked.<br>
+Now I had a command panel, I used ls to see the files<br><br>
 <div align="center">
     <img src="images/command_panel_page.jpg" alt="command panel page image">
 </div>
 <br>
 <br>
+
 After seeing the files I tried to use `cat` to see the "Sup3rS3cretPickl3Ingred.txt" and the "clue.txt" but i couldn't, so i search other ways to see and txt file and tried: `grep . <file> ` , it basically search everything in the file and print it .<br><br>
+
 Well, I did it in the "Sup3rS3cretPickl3Ingred.txt" and it gave me the first flag `mr. meeseek hair`.<br>
+
 Also did it in the "clue.txt" and it showed me `Look around the file system for the other ingredient.`.<br><br>
+
 But I really didn't want to use the command panel page so I did an reverse shell with Python<br>
 
 ...need to continue
